@@ -1,7 +1,7 @@
 import { Request } from 'express';
 
 import { Body, Controller, Delete, Get, Post, Put, Query, Req, UsePipes } from '@nestjs/common';
-import { ApiBearerAuth, ApiImplicitQuery, ApiOkResponse, ApiUseTags } from '@nestjs/swagger';
+import { ApiBearerAuth, ApiOkResponse, ApiUseTags } from '@nestjs/swagger';
 
 import { ValidationPipe } from '../common/pipes/validation.pipe';
 import {

@@ -1,6 +1,4 @@
-import {
-    IsEmail, IsInt, IsOptional, IsPhoneNumber, IsString, Max, Min, ValidateIf
-} from 'class-validator';
+import { IsEmail, IsInt, IsOptional, IsPhoneNumber, Max, Min, ValidateIf } from 'class-validator';
 
 import { ApiModelProperty } from '@nestjs/swagger';
 
