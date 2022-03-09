@@ -1,28 +1,19 @@
 {
-  "name": "nestjs-realworld-example-app",
+  "name": "nestjs-app",
   "version": "1.0.0",
-  "description": "[![Build Status](https://travis-ci.org/anishkny/node-express-realworld-example-app.svg?branch=master)](https://travis-ci.org/anishkny/node-express-realworld-example-app)",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "start:watch": "nodemon",
-    "lint": "./node_modules/.bin/tslint -p tsconfig.json",
     "compile": "tsc",
-    "start:prod": "node dist/main.js",
-    "db:migrate": "ts-node node_modules/.bin/sequelize db:migrate",
-    "db:drop": "ts-node node_modules/.bin/sequelize db:drop",
-    "db:create": "ts-node node_modules/.bin/sequelize db:create"
+    "start:prod": "node dist/main.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lujakob/nestjs-realworld-example-app.git"
+    "url": "https://github.com/Chessman97/nestjs-app"
   },
-  "author": "lu.jakob@googlemail.com",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lujakob/nestjs-realworld-example-app/issues"
-  },
-  "homepage": "https://github.com/lujakob/nestjs-realworld-example-app#readme",
+  "author": "mikhailef@mail.ru",
+  "homepage": "https://github.com/Chessman97/nestjs-app",
   "dependencies": {
     "@nestjs/common": "^5.6.2",
     "@nestjs/core": "^5.6.2",
